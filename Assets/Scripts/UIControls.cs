@@ -5,6 +5,7 @@ using System.Collections;
 
 public class UIControls : MonoBehaviour
 {
+    [SerializeField] private GameManager manager;
     [SerializeField] private MazeController mazeScript;
     [SerializeField] private GameObject controlsContainer;
     [SerializeField] private CanvasGroup pauseScreen;
@@ -45,7 +46,8 @@ public class UIControls : MonoBehaviour
     }
     public void RestartGame()
     {
-
+        ResumeGame();
+        manager.RespawnBallOutOfMaze();
     }
     public void SwitchGameTheme()
     {
