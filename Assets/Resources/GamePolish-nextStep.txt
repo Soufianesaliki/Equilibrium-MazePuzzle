@@ -1,0 +1,7 @@
+## Game Polish
+
+- retry when lost
+- restart from current state
+- timer
+- UI controls
+- Sounds

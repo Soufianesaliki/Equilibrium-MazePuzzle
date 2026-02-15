@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68298e6034253fa439d6048330d76cdf
+guid: d3789a939cad83f42aacb9863b577774
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mazeMat
-    second: {fileID: 2100000, guid: a786479360d2fe447b4ab8cd25d17ce4, type: 2}
+      name: Background.002
+    second: {fileID: 2100000, guid: 072305bddd69b4648a0fa6d3b6c71d74, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

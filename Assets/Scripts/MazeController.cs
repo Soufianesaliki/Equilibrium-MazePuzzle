@@ -23,11 +23,11 @@ public class MazeController : MonoBehaviour
             InputSystem.EnableDevice(AttitudeSensor.current);
             StartCoroutine(CalibrateAfterDelay());
         }
-        else
-        {
-            rotationText.text = "AttitudeSensor support : null";
-            return;
-        }
+        // else
+        // {
+        //     rotationText.text = "AttitudeSensor support : null";
+        //     return;
+        // }
 
     }
 

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 942c31a0825b3904ead4bad63d175714
+guid: 02b36baeec24cc34ba2cf5ff58a9124c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mazeMat
+    second: {fileID: 2100000, guid: a786479360d2fe447b4ab8cd25d17ce4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
